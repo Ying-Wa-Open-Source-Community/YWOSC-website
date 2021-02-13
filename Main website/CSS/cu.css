@@ -1,0 +1,27 @@
+.button {
+    border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 1px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color:#44b4ff; 
+  color: rgb(255, 255, 255); 
+  border: 1px solid #44b4ff;
+}
+
+.button1:hover {
+  background-color: white;
+  background-image: url(../img/email.gif);
+  background-size: 10mm;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgba(0, 0, 0, 0.397);
+}
