@@ -7,3 +7,10 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 
+.dsbtn {
+
+    transition:.5s;
+}
+.dsbtn:hover{
+      transform: rotate(30deg)
+    }

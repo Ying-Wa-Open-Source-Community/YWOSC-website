@@ -11,13 +11,13 @@
     <title>Our works | Ying Wa Open Source Community</title>
     <link href="CSS/Main.css" rel="stylesheet">
     <link href="CSS/index.css" rel="stylesheet">
+    <link href="CSS/Our works.css" rel="stylesheet">
     <link href="CSS/ow.css" rel="stylesheet">
     <link href="CSS/btns.css" rel="stylesheet">
     </head>
 
   <body>
-       <p><a class="btn btn-lg btn-primary" style="position: fixed;bottom: 0;right: 0;font-size:0.9em;" onclick="window.location.reload(true)">Refresh</a></p>
-    <header>
+        <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="nav">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Ying Wa Open Source Community</a>
@@ -45,6 +45,7 @@
     </header>
 
     <main role="main">
+      
       <br>
       <h1 style="display: inline-block;" >Our works</h1>
       <a class="btn btn-secondary" style="float: right;" href="https://github.com/Ying-Wa-Open-Source-Community" role="button" target="_blank">Go to our GitHub organisation &raquo;</a>
@@ -55,36 +56,50 @@
         If you want to get source code of this website more clearly and quickly, you may visit our <a href="https://github.com/Ying-Wa-Open-Source-Community/YWOSC-website">GitHub repository</a> for the website. You can also see the history of it too!</p>
       <hr>
       <br>
-      <h4 style="color: gray;">Breakout Game</h4>
-      <h6 style="display:inline-block;">This is a fun graphic game for you to play! It is very simple but fun to play.</h6>
-      <button class="button" style="vertical-align:middle; float: right;" onclick="window.open('https://github.com/Ying-Wa-Open-Source-Community/Breakout-Game','_blank')"" data-bs-target="_blank"><span>Go to Breakout-Game GitHub repository</span></button>
-      <p>Maker(s): Henry<img src="img/Henry.png" width=40><br>
-        <button class="button2" style="vertical-align:middle; float: right;" onclick="window.open('https://github.com/Ying-Wa-Open-Source-Community/Breakout-Game/releases/download/v1.5/Breakout.Game.zip','_blank')"" data-bs-target="_blank"><span>Download directly with Source Code</span></button>
-        Language(s): <img src="img/cs.png" width=40><br>
-        Platform(s): Windows<img src="img/windows.png" width=40><br>
+      <div class="courses-container">
+        <div class="course">
+          <div class="course-preview">
+            <h6><img src="img/cs.svg" width=40><br></h6>
+            <h2>Breakout Game</h2>
+            <p style="color: gainsboro;">for Windows</p>
+            <a href="https://github.com/Ying-Wa-Open-Source-Community/Breakout-Game" target="_blank">View GitHub repository<i class="fas fa-chevron-right"></i></a>
+          </div>
+          <div class="course-info">
+            <h6>Breakout Game</h6>
+            <h2>This is a fun graphic game for you to play! It is very simple but fun to play.</h2><br><img src="img/Henry.png" width=60 style="display: inline-block;"><p style="display: inline-block;">Henry Chan</p>
+            <button class="btn2" onclick="window.open('https://github.com/Ying-Wa-Open-Source-Community/Breakout-Game/releases/download/v1.5/Breakout.Game.zip','_blank')">Download the latest release</button>
+          </div>
+        </div>
+      </div>
         
 </p>      
 <br>
-<hr>
 <br>
-      <h4 style="color: gray;">Randomer</h4>
-      <h6 style="display:inline-block;">A good tool for you for different random generation.</h6>
-      <button class="button" style="vertical-align:middle; float: right;" onclick="window.open('https://github.com/Ying-Wa-Open-Source-Community/Randomer','_blank')"" data-bs-target="_blank"><span>Go to Randomer GitHub repository</span></button>
-      <p>Maker(s): Henry<img src="img/Henry.png" width=40><br>
-        <button class="button2" style="vertical-align:middle; float: right;" onclick="window.open('https://github.com/Ying-Wa-Open-Source-Community/Randomer/releases/download/v1.0/Randomer-release_v1.0.zip','_blank')"" data-bs-target="_blank"><span>Download directly with Source Code</span></button>
-        Language(s): <img src="img/cs.png" width=40><br>
-        Platform(s): Windows<img src="img/windows.png" width=40><br>
+<div class="courses-container" >
+  <div class="course">
+    <div class="course-info">
+      <h6>Randomer</h6>
+      <h2>A good tool for you for different random generation.</h2><br><img src="img/Henry.png" width=60 style="display: inline-block;"><p style="display: inline-block;">Henry Chan</p>
+      <button class="button" style="vertical-align:middle; float: right;" onclick="window.open('https://github.com/Ying-Wa-Open-Source-Community/Randomer/releases/download/v1.0/Randomer-release_v1.0.zip','_blank')"><span>Download the latest release</span></button>
+    </div>
+    <div class="course-preview" style="background-color: cadetblue; min-width: 250px;">
+      <h6><img src="img/cs.svg" width=40><br></h6>
+      <h2>Randomer</h2>
+      <p style="color: gainsboro;">for Windows</p>
+      <a href="https://github.com/Ying-Wa-Open-Source-Community/Randomer" target="_blank">View GitHub repository<i class="fas fa-chevron-right"></i></a>
+    </div>
+  </div>
+</div>
         <br>
-        <hr>
-      <br>
-      <h5 style="text-align: center;">This is the end of the page. You may <a onclick="window.location.reload(true)" style="text-decoration: underline; color: rgb(30, 146, 255);">click here</a> to see if there are newest update(s). Your browser may not check that because of cache.</h5> 
-      <script src="JS/index.js"></script>
+            <script src="JS/index.js"></script>
     </main>
     <footer class="container">        
       <hr>
       <p>&copy; Ying Wa Open Source Community 2021 &middot; <a href="p.html">Privacy</a> &middot; <a href="https://github.com/Ying-Wa-Open-Source-Community" target="_blank">GitHub</a></p>
-      <a href="https://www.instagram.com/ywosc/" target="_blank"><img src="img/ig.png" style="float: right;" width="200"></a>
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="img/license.png" width="100" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+     <a href="https://www.instagram.com/ywosc/" target="_blank"><img alt="Follow us on IG!" class="dsbtn" src="img/ig.png" style="float: right; margin-right: 1em; margin-top: 0.07em;" width="50" height="50"></a>
+     <a href="mailto:ywosc@outlook.com" target="_blank"><img alt="Email us!" class="dsbtn" src="img/email.png" style="float: right;margin-right: 1em;" width="53"></a>
+     <a href="https://github.com/Ying-Wa-Open-Source-Community" target="_blank"><img alt="Our github organisation" class="dsbtn" src="img/github.png" style="float: right;margin-right: 1em;" width="53"></a>
+     <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="img/license.png" width="100" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
     </footer>
   </body>
 </html>
