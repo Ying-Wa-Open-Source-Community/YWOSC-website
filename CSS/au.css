@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.center-not-card {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.card {
+  font-family: Abel, Arial, Verdana, sans-serif;
+  width: 450px;
+  height: 250px;
+  background-color: #fff;
+  background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 1.5rem;
+  transition-duration:1s;
+}
+
+
+.card:hover
+{
+  transition-duration: 0.5s;
+  box-shadow: 0 12px 24px -12px rgba(0,0,0,0.4);
+}
+
+.card .additional {
+  width: 30%;
+  height: 100%;
+  background: linear-gradient(#92bCa6, #A2CCB6);
+  transition: width 0.4s;
+  overflow: hidden;
+}
+
+
+.card:hover .additional {
+  width: 100%;
+  border-radius: 0 5px 5px 0;
+}
+
+.card .additional .user-card {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  -webkit-transform: translate(-50%, -50%);
+  width: 30%;
+  height: 100%;
+  position: absolute;
+}
+
+
+.card .additional .user-card .level{
+  
+  top: 15%;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+  background: rgba(0,0,0,0.15);
+  padding: 0.15rem 0.75rem;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.card .additional .user-card .points {
+  top: 85%;
+}
+
+.card .additional .user-card svg {
+  top: 50%;
+}
+
+.MI
+{
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
+
+
