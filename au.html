@@ -55,11 +55,12 @@
       <h1 style="display: inline-block;">About Us</h1>
       <img style="float: right;" src="img/icon.jpg" width="65">
       <hr>
-      <p  id="HenryC">Ying Wa Open Source Community is founded in 2021. We are the students from Ying Wa College, Hong Kong. We make free, open-source and public applications for everyone. Here is a member list:</p>
+      <p>Ying Wa Open Source Community is founded in 2021. We are the students from Ying Wa College, Hong Kong. We make free, open-source and public applications for everyone. Here is a member list:</p>
 
+      <a id="Henry"></a>
       <div class="card" style="width: 100%;" id="card1">
         <div class="additional">
-          <div class="user-card"  style="width: 20%;" id="Raymond_Ryan"> 
+          <div class="user-card"  style="width: 20%;"> 
             <div class="level center">
               Founder
             </div>
@@ -78,10 +79,11 @@
       </div>
       </div>
       
-      <div >
+      <a id="Raymond_Ryan"></a>
+      <div>
       <div class="card" style="width: 49%; display:inline-block; margin-right: -0.3rem;" id="card2">
         <div class="additional" style="  background: linear-gradient(#54c5fa, #8adaff);">
-          <div class="user-card"  style="width: 20%;" id="Gabriel_Kelvin">
+          <div class="user-card"  style="width: 20%;">
             <div class="level center">
               Co-Founder
             </div>
@@ -123,11 +125,11 @@
       </div>
 
 
-  
+      <a id="Gabriel_Kelvin"></a>
   <div>
   <div class="card" style="width: 49%; display:inline-block; margin-right: -0.3rem;" id="card4">
     <div class="additional" style="  background: linear-gradient(#a8a8a8, #a7a7a7);">
-      <div class="user-card"  style="width: 20%;" id="Hayden">
+      <div class="user-card"  style="width: 20%;">
         <div class="level center">
           Member
         </div>
@@ -168,6 +170,7 @@
   </div>
   </div>
 
+  <a id="Hayden"></a>
   <div>
     <div class="card" style="width: 49%; display:inline-block; margin-right: -0.3rem;" id="card6">
       <div class="additional" style="  background: linear-gradient(#1c77ec, #004fb6);">
@@ -192,6 +195,111 @@
     </div>
     </div>
     </div>
+    </div>
+    <style>#btn {
+      background: #222;
+      height: 50px;
+      min-width: 150px;
+      border: none;
+      border-radius: 10px;
+      color: #eee;
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      position: relative;
+      transition: 1s;
+      -webkit-tap-highlight-color: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      padding-top: 5px;
+    }
+    
+    #btn #circle {
+      width: 5px;
+      height: 5px;
+      background: transparent;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      overflow: hidden;
+      transition: 500ms;
+    }
+    
+    .noselect {
+      -webkit-touch-callout: none;
+        -webkit-user-select: none;
+         -khtml-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+    }
+    
+    #btn:hover {
+      background: white;
+      color: black;
+    }
+    
+    #btn:hover #circle {
+      height: 50px;
+      width: 100%;
+      left: 0;
+      border-radius: 0;
+      border-bottom: 2px solid rgb(0, 0, 0);
+    }
+
+.modal {
+  display: none;
+  position: fixed; 
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}</style>
+    <div id="btn" ><span class="noselect">Join Us</span><div id="circle"></div></div>
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Join Us</h2>
+        </div>
+        <div class="modal-body">
+          <iframe style="display: block; margin-left: auto; margin-right: auto;" src="https://docs.google.com/forms/d/e/1FAIpQLSeoNhShITmrYa8tm6gRa912zRezoGWUMJAkL9vyY9GBNOG_sg/viewform?embedded=true" width="640" height="1142" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+      </div>
+    
     </div>
       
             <script src="JS/au.js"></script>
