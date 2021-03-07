@@ -41,4 +41,51 @@
 
 
   
+
+
+  .button2 {
+    display: inline-block;
+    border-radius: 0.3em;
+    background-color: #54c29d;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1em;
+    padding: 0.8em;
+
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0.1em;
+    
+  }
+  
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button2 span:after {
+    content: '↺';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button2:hover span {
+
+    padding-right: 25px;
+  }
+  
+  .button2:hover span:after {
+    transform: rotateZ(360deg);
+    opacity: 1;
+    right: 0;
+  }
+
+
+  
   
